@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python script
-        run: python script.py
+        run: python main.py
 
       - name: Upload test.txt as an artifact
         uses: actions/upload-artifact@v3
